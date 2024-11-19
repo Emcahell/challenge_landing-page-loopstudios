@@ -1,0 +1,249 @@
+@media (max-width: 1108px) {
+    .headers-title p {
+        font-size: 50px;
+    }
+    .abouts-title{
+        font-size: 40px;
+    }
+
+}
+
+@media (max-width: 932px) {
+    .box-about {
+        width: 50%;
+        height: 330px;
+    }
+    .about {
+        width: 80%;
+        height: 80%;
+    }
+}
+
+@media (max-width: 900px) {
+    .box-about {
+        position: relative;
+        right: 0;
+        bottom: 0;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        text-align: center;
+        width: 80%;
+        height: 200px;
+        margin-top: 20px;
+    }
+    .abouts-title{
+        margin-bottom: 15px;
+        font-size: 60px;
+    }
+    .abouts-p {
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 800px) {
+
+    .main-img {
+        background-image: url('/images/mobile/image-interactive.jpg');
+        width: 80%;
+        height: 448px;
+    }
+    .box-loopstudios {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: auto;
+        width: 80%;
+    }
+    .loopstudios{
+        margin-bottom: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .box-social-media {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    footer{
+        padding-top: 40px;
+    }
+}
+
+@media (max-width: 600px) {
+    .header{
+        position: relative;
+        background-image: url('/images/mobile/image-hero.jpg');
+        width: 100%;
+        height: 100vh;
+    }
+
+    .headers-title {
+        height: 330px;
+        width: 100%;
+    }
+
+    .headers-title p {
+        width: 80%;
+        font-size: 50px;
+    }
+
+    .logo {
+        z-index: 100;
+    }
+
+    .cont-btn {
+        display: block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 150;
+    }
+    
+    .btn-panel {
+        border: none;
+        background: none;
+        cursor: pointer;
+    }
+
+    .panel {
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 100vw;
+        height: 100vh;
+        background: var(--Black);
+        transition: transform .3s ease;
+        transform: translate(-110%, 0);
+    }
+
+    .panel.active{
+        transform: translate(0.0);
+    }
+    
+    .nav .links a {
+        position: relative;
+        margin-left: 30px;
+        margin-bottom: 30px;
+        font-size: 27px;
+        line-height: 1.5;
+        width: 15%;
+        height: 35px;
+        text-transform: uppercase;
+        font-family: var(--Josefin);
+        font-weight: 300;
+        color: var(--Dark-Gray);
+        transition: .5s;
+    }
+
+    .nav .links a:hover {
+        color: var(--White);
+    }
+
+    .main-img {
+        background-size: cover;
+        background-position: left;
+        width: 100%;
+        height: 400px;
+    }
+
+    .main{
+        margin-bottom: 90px;
+    }
+
+    .box-about{
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .abouts-title{
+        width: 100%;
+        font-size: 40px;
+    }
+
+    .about {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        text-align: center;
+        margin-top: 100px;
+        width: 100%;
+        height: 80%;
+    }
+
+    .about .abouts-p{
+        width: 100%;
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .our-creations {
+        position: relative;
+        margin-bottom: 50px;
+    }
+
+    .nav-creations {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .creation picture img {
+        width: 100%;
+    }
+
+    .btn-see-all {
+        position: absolute;
+        bottom: -70px;
+    }
+
+    .box-loopstudios{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    footer .links {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        line-height: 40px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 400px) {
+
+    .headers-title{
+        height: 250px;
+    }
+
+    .headers-title p {
+        font-size: 40px;
+    }
+
+    .abouts-title{
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 363px) {
+
+    .headers-title p {
+        font-size: 35px;
+    }
+
+    .abouts-title{
+        margin-top: 100px;
+    }
+}
