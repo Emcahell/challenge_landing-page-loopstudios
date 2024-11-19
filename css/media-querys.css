@@ -44,7 +44,7 @@
 @media (max-width: 800px) {
 
     .main-img {
-        background-image: url('/images/mobile/image-interactive.jpg');
+        background-image: url('./images/mobile/image-interactive.jpg');
         width: 80%;
         height: 448px;
     }
@@ -78,7 +78,7 @@
 @media (max-width: 600px) {
     .header{
         position: relative;
-        background-image: url('/images/mobile/image-hero.jpg');
+        background-image: url('./images/mobile/image-hero.jpg');
         width: 100%;
         height: 100vh;
     }
