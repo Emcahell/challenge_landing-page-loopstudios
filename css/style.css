@@ -23,7 +23,7 @@ body {
     display: flex;
     justify-content: center;
     align-content: flex-start;
-    background-image: url('../../images/desktop/image-hero.jpg');
+    background-image: url('../images/desktop/image-hero.jpg');
     background-repeat: no-repeat;
     width: 100%;
     height: 90vh;
@@ -103,7 +103,7 @@ article{
 }
 
 .main-img {
-    background-image: url('../../images/desktop/image-interactive.jpg');
+    background-image: url('../images/desktop/image-interactive.jpg');
     background-size: cover;
     background-position: center;
     width: 731px;
